@@ -1,0 +1,57 @@
+version: '3'
+services:
+  identity-admin:
+    build:
+      dockerfile: Skoruba.IdentityServer4.Admin/Dockerfile
+      context: ./IdentityServer4.Admin/src
+    image: devremoto/identity/admin
+    container_name: identity-admin
+    ports:
+      - ${STS_ADMIN_PORT}:${STS_ADMIN_PORT}
+      - ${STS_ADMIN_HTTPS_PORT}:${STS_ADMIN_HTTPS_PORT}
+    environment:
+      - ASPNETCORE_HTTPS_PORT=${STS_ADMIN_HTTPS_PORT}
+      - ASPNETCORE_URLS=https://+:${STS_ADMIN_HTTPS_PORT};http://+:${STS_ADMIN_PORT}
+      - Kestrel__Certificates__Default__Path=cert-aspnetcore.pfx
+      - Kestrel__Certificates__Default__Password=ufo
+      - AdminConfiguration:IdentityServerBaseUrl
+      - AdminConfiguration:RequireHttpsMetadata=${USE_SSL}
+      - AdminConfiguration:IdentityServerBaseUrl=${STS_SERVER}
+      - AdminConfiguration:IdentityAdminBaseUrl=${STS_ADMIN_SERVER}
+      - AdminConfiguration:IdentityAdminRedirectUri=${STS_ADMIN_SERVER}/signin-oidc
+      - AdminConfiguration:AllowedCorsOrigins:0=${STS_SERVER}
+      - AdminConfiguration:AllowedCorsOrigins:1=${STS_ADMIN_SERVER}
+      - AdminConfiguration:RedirectUris:0=${STS_SERVER}
+      - AdminConfiguration:RedirectUris:1=${STS_ADMIN_SERVER}
+    networks:
+      - identity-network
+    volumes:
+      - ./IdentityServer4.Admin/src/db:/db
+    links:
+      - identity
+    depends_on:
+      - identity
+
+  identity:
+    build:
+      dockerfile: Skoruba.IdentityServer4.STS.Identity/Dockerfile
+      context: ./IdentityServer4.Admin/src
+    image: devremoto/identity
+    container_name: identity
+    ports:
+      - ${STS_PORT}:${STS_PORT}
+      - ${STS_HTTPS_PORT}:${STS_HTTPS_PORT}
+    environment:
+      - ASPNETCORE_HTTPS_PORT=${STS_HTTPS_PORT}
+      - ASPNETCORE_URLS=https://+:${STS_HTTPS_PORT};http://+:${STS_PORT}
+      - Kestrel__Certificates__Default__Path=cert-aspnetcore.pfx
+      - Kestrel__Certificates__Default__Password=ufo
+      - AdminConfiguration:IdentityAdminBaseUrl=${STS_ADMIN_SERVER}
+    networks:
+      - identity-network
+    volumes:
+      - ./IdentityServer4.Admin/src/db:/db
+
+networks:
+  identity-network:
+    driver: bridge

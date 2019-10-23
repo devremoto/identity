@@ -1,0 +1,21 @@
+FROM microsoft/dotnet:2.2-sdk  AS build-env
+
+ARG port=5000
+WORKDIR /app
+
+# Copy csproj and restore as distinct layers
+COPY *.csproj ./
+#RUN dotnet restore
+
+# Copy everything else and build
+COPY . ./
+RUN dotnet publish -c Release -o out
+
+# Build runtime image
+FROM microsoft/dotnet:2.2-aspnetcore-runtime 
+ENV PORT $port
+WORKDIR /app
+COPY --from=build-env /app/out .
+
+EXPOSE $port
+ENTRYPOINT ["dotnet", "Skoruba.IdentityServer4.STS.Identity.dll"]

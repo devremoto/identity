@@ -1,0 +1,48 @@
+2019-04-17 21:30:20.001 -03:00 [FTL] An error occurred stopping the application
+System.AggregateException: One or more errors occurred. (Not started. Call Start first.) ---> System.InvalidOperationException: Not started. Call Start first.
+   at IdentityServer4.EntityFramework.TokenCleanup.Stop() in C:\local\identity\server4\IdentityServer4\src\EntityFramework.Storage\src\TokenCleanup\TokenCleanup.cs:line 77
+   at Microsoft.Extensions.DependencyInjection.TokenCleanupHost.StopAsync(CancellationToken cancellationToken) in C:\local\identity\server4\IdentityServer4\src\EntityFramework\src\TokenCleanupHost.cs:line 37
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.<>c__DisplayClass4_0.<StopAsync>b__0(IHostedService service)
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.StopAsync(CancellationToken token)
+---> (Inner Exception #0) System.InvalidOperationException: Not started. Call Start first.
+   at IdentityServer4.EntityFramework.TokenCleanup.Stop() in C:\local\identity\server4\IdentityServer4\src\EntityFramework.Storage\src\TokenCleanup\TokenCleanup.cs:line 77
+   at Microsoft.Extensions.DependencyInjection.TokenCleanupHost.StopAsync(CancellationToken cancellationToken) in C:\local\identity\server4\IdentityServer4\src\EntityFramework\src\TokenCleanupHost.cs:line 37
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.<>c__DisplayClass4_0.<StopAsync>b__0(IHostedService service)
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)<---
+
+2019-04-17 21:30:55.759 -03:00 [FTL] An error occurred stopping the application
+System.AggregateException: One or more errors occurred. (Not started. Call Start first.) ---> System.InvalidOperationException: Not started. Call Start first.
+   at IdentityServer4.EntityFramework.TokenCleanup.Stop() in C:\local\identity\server4\IdentityServer4\src\EntityFramework.Storage\src\TokenCleanup\TokenCleanup.cs:line 77
+   at Microsoft.Extensions.DependencyInjection.TokenCleanupHost.StopAsync(CancellationToken cancellationToken) in C:\local\identity\server4\IdentityServer4\src\EntityFramework\src\TokenCleanupHost.cs:line 37
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.<>c__DisplayClass4_0.<StopAsync>b__0(IHostedService service)
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.StopAsync(CancellationToken token)
+---> (Inner Exception #0) System.InvalidOperationException: Not started. Call Start first.
+   at IdentityServer4.EntityFramework.TokenCleanup.Stop() in C:\local\identity\server4\IdentityServer4\src\EntityFramework.Storage\src\TokenCleanup\TokenCleanup.cs:line 77
+   at Microsoft.Extensions.DependencyInjection.TokenCleanupHost.StopAsync(CancellationToken cancellationToken) in C:\local\identity\server4\IdentityServer4\src\EntityFramework\src\TokenCleanupHost.cs:line 37
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.<>c__DisplayClass4_0.<StopAsync>b__0(IHostedService service)
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)<---
+
+2019-04-17 21:46:54.000 -03:00 [FTL] An error occurred stopping the application
+System.AggregateException: One or more errors occurred. (Not started. Call Start first.) ---> System.InvalidOperationException: Not started. Call Start first.
+   at IdentityServer4.EntityFramework.TokenCleanup.Stop() in C:\local\identity\server4\IdentityServer4\src\EntityFramework.Storage\src\TokenCleanup\TokenCleanup.cs:line 77
+   at Microsoft.Extensions.DependencyInjection.TokenCleanupHost.StopAsync(CancellationToken cancellationToken) in C:\local\identity\server4\IdentityServer4\src\EntityFramework\src\TokenCleanupHost.cs:line 37
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.<>c__DisplayClass4_0.<StopAsync>b__0(IHostedService service)
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.StopAsync(CancellationToken token)
+---> (Inner Exception #0) System.InvalidOperationException: Not started. Call Start first.
+   at IdentityServer4.EntityFramework.TokenCleanup.Stop() in C:\local\identity\server4\IdentityServer4\src\EntityFramework.Storage\src\TokenCleanup\TokenCleanup.cs:line 77
+   at Microsoft.Extensions.DependencyInjection.TokenCleanupHost.StopAsync(CancellationToken cancellationToken) in C:\local\identity\server4\IdentityServer4\src\EntityFramework\src\TokenCleanupHost.cs:line 37
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.<>c__DisplayClass4_0.<StopAsync>b__0(IHostedService service)
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)<---
+
+2019-04-17 23:33:59.498 -03:00 [ERR] Invalid redirect_uri: http://localhost:9000/signin-oidc
+{"ClientId":"skoruba_identity_admin","ClientName":"skoruba_identity_admin","RedirectUri":null,"AllowedRedirectUris":["http://192.168.15.18:9000/signin-oidc"],"SubjectId":"anonymous","ResponseType":null,"ResponseMode":null,"GrantType":null,"RequestedScopes":"","State":null,"UiLocales":null,"Nonce":null,"AuthenticationContextReferenceClasses":null,"DisplayMode":null,"PromptMode":null,"MaxAge":null,"LoginHint":null,"SessionId":null,"Raw":{"client_id":"skoruba_identity_admin","redirect_uri":"http://localhost:9000/signin-oidc","response_type":"code id_token","scope":"openid profile email roles","response_mode":"form_post","nonce":"636911516388012980.MWQ0OWEzNDMtYjEyNC00NjhmLWIzZGQtZDc0YzI4YmY2Y2ZmMDk4NmFlYWQtN2Q1NC00N2JkLWI2NTEtOGNkN2E1NTM4YzY2","state":"CfDJ8IFIz8ezcpxDhbTIz4dxbwRocn6i-COOpOAmiGOYyIUgMalmOB7JcZ1HI8cRexTyA88HW2BhqUQAZYTklwzjzNE60qdUfxO4Oo2-pnv4yC1MTcGziWaJqcv7FpeeRT7s92GlZnsVM_26PBLdNmqFoMSJRclmJJwdcetrxAyCoXjZFKXJo6uuN3i0WpztpWPZ9i1K7CECqPPEucLANdaSJU-QwoXpfdchuQ0OVDancKQ3maKdh2112BONSou3elzEw_JKVQ0FxQFcTI3K-36T87e2YXiTpROvpssXVOSLGkP9os5MpAh7vU98a6nMwPWYRA","x-client-SKU":"ID_NETSTANDARD2_0","x-client-ver":"5.3.0.0"},"$type":"AuthorizeRequestValidationLog"}
+2019-04-17 23:33:59.563 -03:00 [ERR] Request validation failed
