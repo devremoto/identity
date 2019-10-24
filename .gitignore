@@ -282,3 +282,4 @@ clear.ps1
 .gitignore
 IdentityServer4.Admin/src/db/IdentityServer4Admin.db
 **/*.db
+IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts/obj/Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts.csprojSkoruba.IdentityServer4.Admin.EntityFramework.DbContexts.csproj.EntityFrameworkCore.targets
