@@ -273,3 +273,12 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+
+install.ps1
+publish-images.sh
+run-images.bat
+teste.bat
+clear.ps1
+.gitignore
+IdentityServer4.Admin/src/db/IdentityServer4Admin.db
+**/*.db

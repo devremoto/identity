@@ -4,5 +4,7 @@
     {
         public const string AdministrationPolicy = "RequireAdministratorRole";
         public const string AdministrationRole = "SkorubaIdentityAdminAdministrator";
+
+        public const string TgAppModelAdmin = "Admin";
     }
 }

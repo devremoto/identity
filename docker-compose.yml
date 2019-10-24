@@ -4,8 +4,8 @@ services:
     build:
       dockerfile: Skoruba.IdentityServer4.Admin/Dockerfile
       context: ./IdentityServer4.Admin/src
-    image: devremoto/identity/admin
-    container_name: identity-admin
+    image: devremoto/identity-admin
+    container_name: devremoto-identity-admin
     ports:
       - ${STS_ADMIN_PORT}:${STS_ADMIN_PORT}
       - ${STS_ADMIN_HTTPS_PORT}:${STS_ADMIN_HTTPS_PORT}
@@ -14,15 +14,28 @@ services:
       - ASPNETCORE_URLS=https://+:${STS_ADMIN_HTTPS_PORT};http://+:${STS_ADMIN_PORT}
       - Kestrel__Certificates__Default__Path=cert-aspnetcore.pfx
       - Kestrel__Certificates__Default__Password=ufo
-      - AdminConfiguration:IdentityServerBaseUrl
       - AdminConfiguration:RequireHttpsMetadata=${USE_SSL}
       - AdminConfiguration:IdentityServerBaseUrl=${STS_SERVER}
       - AdminConfiguration:IdentityAdminBaseUrl=${STS_ADMIN_SERVER}
       - AdminConfiguration:IdentityAdminRedirectUri=${STS_ADMIN_SERVER}/signin-oidc
       - AdminConfiguration:AllowedCorsOrigins:0=${STS_SERVER}
       - AdminConfiguration:AllowedCorsOrigins:1=${STS_ADMIN_SERVER}
+      - AdminConfiguration:AllowedCorsOrigins:2=https://localhost:${STS_HTTPS_PORT}
+      - AdminConfiguration:AllowedCorsOrigins:3=https://localhost:${STS_ADMIN_HTTPS_PORT}
+      - AdminConfiguration:AllowedCorsOrigins:4=http://localhost:${STS_PORT}
+      - AdminConfiguration:AllowedCorsOrigins:5=http://localhost:${STS_ADMIN_PORT}
       - AdminConfiguration:RedirectUris:0=${STS_SERVER}
       - AdminConfiguration:RedirectUris:1=${STS_ADMIN_SERVER}
+      - AdminConfiguration:RedirectUris:2=https://${HOST_IP}:${STS_ADMIN_HTTPS_PORT}
+      - AdminConfiguration:RedirectUris:3=http://${HOST_IP}:${STS_ADMIN_PORT}
+      - AdminConfiguration:RedirectUris:4=https://${HOST_IP}:${STS_HTTPS_PORT}
+      - AdminConfiguration:RedirectUris:5=http://${HOST_IP}:${STS_PORT}
+      - AdminConfiguration:RedirectUris:6=https://localhost:${STS_HTTPS_PORT}
+      - AdminConfiguration:RedirectUris:7=http://localhost:${STS_PORT}
+      - AdminConfiguration:RedirectUris:8=https://localhost:${STS_ADMIN_HTTPS_PORT}      
+      - AdminConfiguration:RedirectUris:9=http://localhost:${STS_ADMIN_PORT}
+      - AdminConfiguration:RedirectUris:10=https://${HOST_IP}:${STS_ADMIN_HTTPS_PORT}/signin-oidc
+      - AdminConfiguration:RedirectUris:11=http://localhost:${STS_ADMIN_PORT}/signin-oidc
     networks:
       - identity-network
     volumes:
@@ -37,7 +50,7 @@ services:
       dockerfile: Skoruba.IdentityServer4.STS.Identity/Dockerfile
       context: ./IdentityServer4.Admin/src
     image: devremoto/identity
-    container_name: identity
+    container_name: devremoto-identity
     ports:
       - ${STS_PORT}:${STS_PORT}
       - ${STS_HTTPS_PORT}:${STS_HTTPS_PORT}
@@ -46,6 +59,7 @@ services:
       - ASPNETCORE_URLS=https://+:${STS_HTTPS_PORT};http://+:${STS_PORT}
       - Kestrel__Certificates__Default__Path=cert-aspnetcore.pfx
       - Kestrel__Certificates__Default__Password=ufo
+      - AdminConfiguration:RequireHttpsMetadata=${USE_SSL}
       - AdminConfiguration:IdentityAdminBaseUrl=${STS_ADMIN_SERVER}
     networks:
       - identity-network
