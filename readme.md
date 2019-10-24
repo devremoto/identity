@@ -39,6 +39,7 @@ run-local.bat
 The frontend and back and are protected by [IdentityServer4](https://github.com/IdentityServer/IdentityServer4 "Check this out") and [Skoruba](https://github.com/skoruba/IdentityServer4.Admin "Check this out") to IdentyServer Managment
 
 > **Server** [http://localhost:5000 - Identity Server - Token Issuer ](http://localhost:5000 "Token Issuer")
+
 > **Admin** [http://localhost:9000 - Identity Server - Admin ](http://localhost:9000 "Identity Server - Admin")
 
 ### Default credentials for admin
