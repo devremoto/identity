@@ -1,50 +1,39 @@
 # Instalation
 
+## Docker
 Run the commands (docker-compose)  from root folder
 
-## Build the imagens
-ex:
-
-```bash
-sudo FRONT_PORT=4500 GO_PORT=8085 MS_MONGO_PORT=5050 REDIS_PORT=6379 STS_PORT=5000 STS_ADMIN_PORT=9000 docker-compose build
-```
-
-## Run the containers
-
-```bash
-sudo FRONT_PORT=4500 GO_PORT=8085 MS_MONGO_PORT=5050 REDIS_PORT=6379 STS_PORT=5000 STS_ADMIN_PORT=9000 docker-compose up -d
-```
-
-## install.sh
-
-ALternativelly you can run the install command
-
+### Linux
 ```bash
 sudo chmod +x ./install.sh
 
 ./install.sh
 ```
-# Verificação da instalação
 
-## Admin
-
-http://localhost:4500
-
-Fronend Angular application, responsible to manage the toggles
-
-## Backend (MicroserviceNodeJs - NodeJs)
-
-Microservice responsible to manage crud operations on mongoDB and sync data to redis
-
-### End point to see all toggles on mongoDB
-
-http://localhost:5050/featuretoggle/v1/featuretoggles
+### Window
+just run the file
+```cmd
+install.bat
+```
 
 
-## Microservice  (MicroserviceGo - GoLang)
-Microservice responsibel to query data on redis
 
-http://localhost:8085/feature
+## Run locally
+
+### Linux
+```bash
+sudo chmod +x ./run-local.sh
+
+./run-local.sh
+```
+
+### Window
+just run the file
+```cmd
+run-local.bat
+```
+
+
 
 ## Identity Server (IdentityServer4.Admin - .net core)
 The frontend and back and are protected by [IdentityServer4](https://github.com/IdentityServer/IdentityServer4 "Check this out") and [Skoruba](https://github.com/skoruba/IdentityServer4.Admin "Check this out") to IdentyServer Managment
@@ -56,8 +45,6 @@ The frontend and back and are protected by [IdentityServer4](https://github.com/
 > - **login** "admin";
 > - **pass** "Pa$$word123";
 > - **email** "admin@example.com";
-# Contact
-
 
 # Contact
 
@@ -71,4 +58,4 @@ The frontend and back and are protected by [IdentityServer4](https://github.com/
 
 [Github https://github.com/devremoto](https://github.com/devremoto/featuretoggle)
 
-(11) 9 9353-6732
++55 11 9 9353-6732

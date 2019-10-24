@@ -20,6 +20,19 @@ node_modules/
 node_modules
 
 # Build results
+**/[Dd]ebug/
+**/[Dd]ebugPublic/
+**/[Rr]elease/
+**/[Rr]eleases/
+
+**/[Dd]ebug/*
+**/[Dd]ebugPublic/*
+**/[Rr]elease/*
+**/[Rr]eleases/*
+
+**/[Bb]in/*
+**/[Oo]bj/*
+
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/

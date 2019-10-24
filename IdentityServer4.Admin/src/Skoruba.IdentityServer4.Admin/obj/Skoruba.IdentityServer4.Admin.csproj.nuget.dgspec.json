@@ -1,38 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin/Skoruba.IdentityServer4.Admin.csproj": {}
+    "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin\\Skoruba.IdentityServer4.Admin.csproj": {}
   },
   "projects": {
-    "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic.Identity/Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.csproj": {
+    "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic.Identity\\Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.csproj": {
       "version": "1.0.0-beta6",
       "restore": {
-        "projectUniqueName": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic.Identity/Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.csproj",
+        "projectUniqueName": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic.Identity\\Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.csproj",
         "projectName": "Skoruba.IdentityServer4.Admin.BusinessLogic.Identity",
-        "projectPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic.Identity/Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.csproj",
-        "packagesPath": "/home/adilson/.nuget/packages/",
-        "outputPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic.Identity/obj/",
+        "projectPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic.Identity\\Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.csproj",
+        "packagesPath": "C:\\Users\\adils\\.nuget\\packages\\",
+        "outputPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/adilson/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\adils\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.csproj": {
-                "projectPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.csproj"
+              "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared\\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.csproj": {
+                "projectPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared\\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.csproj"
               },
-              "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework/Skoruba.IdentityServer4.Admin.EntityFramework.csproj": {
-                "projectPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework/Skoruba.IdentityServer4.Admin.EntityFramework.csproj"
+              "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework\\Skoruba.IdentityServer4.Admin.EntityFramework.csproj": {
+                "projectPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework\\Skoruba.IdentityServer4.Admin.EntityFramework.csproj"
               }
             }
           }
@@ -71,29 +75,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.csproj": {
+    "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared\\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.csproj": {
       "version": "1.0.0-beta6",
       "restore": {
-        "projectUniqueName": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.csproj",
+        "projectUniqueName": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared\\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.csproj",
         "projectName": "Skoruba.IdentityServer4.Admin.BusinessLogic.Shared",
-        "projectPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.csproj",
-        "packagesPath": "/home/adilson/.nuget/packages/",
-        "outputPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared/obj/",
+        "projectPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared\\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.csproj",
+        "packagesPath": "C:\\Users\\adils\\.nuget\\packages\\",
+        "outputPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/adilson/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\adils\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -127,39 +135,43 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic/Skoruba.IdentityServer4.Admin.BusinessLogic.csproj": {
+    "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic\\Skoruba.IdentityServer4.Admin.BusinessLogic.csproj": {
       "version": "1.0.0-beta6",
       "restore": {
-        "projectUniqueName": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic/Skoruba.IdentityServer4.Admin.BusinessLogic.csproj",
+        "projectUniqueName": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic\\Skoruba.IdentityServer4.Admin.BusinessLogic.csproj",
         "projectName": "Skoruba.IdentityServer4.Admin.BusinessLogic",
-        "projectPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic/Skoruba.IdentityServer4.Admin.BusinessLogic.csproj",
-        "packagesPath": "/home/adilson/.nuget/packages/",
-        "outputPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic/obj/",
+        "projectPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic\\Skoruba.IdentityServer4.Admin.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\adils\\.nuget\\packages\\",
+        "outputPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/adilson/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\adils\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.csproj": {
-                "projectPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.csproj"
+              "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared\\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.csproj": {
+                "projectPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared\\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.csproj"
               },
-              "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework/Skoruba.IdentityServer4.Admin.EntityFramework.csproj": {
-                "projectPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework/Skoruba.IdentityServer4.Admin.EntityFramework.csproj"
+              "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework\\Skoruba.IdentityServer4.Admin.EntityFramework.csproj": {
+                "projectPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework\\Skoruba.IdentityServer4.Admin.EntityFramework.csproj"
               }
             }
           }
@@ -194,39 +206,43 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts/Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts.csproj": {
+    "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts\\Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts.csproj": {
       "version": "1.0.0-beta6",
       "restore": {
-        "projectUniqueName": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts/Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts.csproj",
+        "projectUniqueName": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts\\Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts.csproj",
         "projectName": "Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts",
-        "projectPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts/Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts.csproj",
-        "packagesPath": "/home/adilson/.nuget/packages/",
-        "outputPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts/obj/",
+        "projectPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts\\Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts.csproj",
+        "packagesPath": "C:\\Users\\adils\\.nuget\\packages\\",
+        "outputPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/adilson/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\adils\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework.Identity/Skoruba.IdentityServer4.Admin.EntityFramework.Identity.csproj": {
-                "projectPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework.Identity/Skoruba.IdentityServer4.Admin.EntityFramework.Identity.csproj"
+              "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework.Identity\\Skoruba.IdentityServer4.Admin.EntityFramework.Identity.csproj": {
+                "projectPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework.Identity\\Skoruba.IdentityServer4.Admin.EntityFramework.Identity.csproj"
               },
-              "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework/Skoruba.IdentityServer4.Admin.EntityFramework.csproj": {
-                "projectPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework/Skoruba.IdentityServer4.Admin.EntityFramework.csproj"
+              "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework\\Skoruba.IdentityServer4.Admin.EntityFramework.csproj": {
+                "projectPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework\\Skoruba.IdentityServer4.Admin.EntityFramework.csproj"
               }
             }
           }
@@ -257,29 +273,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework.Identity/Skoruba.IdentityServer4.Admin.EntityFramework.Identity.csproj": {
+    "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework.Identity\\Skoruba.IdentityServer4.Admin.EntityFramework.Identity.csproj": {
       "version": "1.0.0-beta6",
       "restore": {
-        "projectUniqueName": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework.Identity/Skoruba.IdentityServer4.Admin.EntityFramework.Identity.csproj",
+        "projectUniqueName": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework.Identity\\Skoruba.IdentityServer4.Admin.EntityFramework.Identity.csproj",
         "projectName": "Skoruba.IdentityServer4.Admin.EntityFramework.Identity",
-        "projectPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework.Identity/Skoruba.IdentityServer4.Admin.EntityFramework.Identity.csproj",
-        "packagesPath": "/home/adilson/.nuget/packages/",
-        "outputPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework.Identity/obj/",
+        "projectPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework.Identity\\Skoruba.IdentityServer4.Admin.EntityFramework.Identity.csproj",
+        "packagesPath": "C:\\Users\\adils\\.nuget\\packages\\",
+        "outputPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/adilson/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\adils\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -321,29 +341,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework/Skoruba.IdentityServer4.Admin.EntityFramework.csproj": {
+    "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework\\Skoruba.IdentityServer4.Admin.EntityFramework.csproj": {
       "version": "1.0.0-beta6",
       "restore": {
-        "projectUniqueName": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework/Skoruba.IdentityServer4.Admin.EntityFramework.csproj",
+        "projectUniqueName": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework\\Skoruba.IdentityServer4.Admin.EntityFramework.csproj",
         "projectName": "Skoruba.IdentityServer4.Admin.EntityFramework",
-        "projectPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework/Skoruba.IdentityServer4.Admin.EntityFramework.csproj",
-        "packagesPath": "/home/adilson/.nuget/packages/",
-        "outputPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework/obj/",
+        "projectPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework\\Skoruba.IdentityServer4.Admin.EntityFramework.csproj",
+        "packagesPath": "C:\\Users\\adils\\.nuget\\packages\\",
+        "outputPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/adilson/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\adils\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -381,45 +405,49 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin/Skoruba.IdentityServer4.Admin.csproj": {
+    "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin\\Skoruba.IdentityServer4.Admin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin/Skoruba.IdentityServer4.Admin.csproj",
+        "projectUniqueName": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin\\Skoruba.IdentityServer4.Admin.csproj",
         "projectName": "Skoruba.IdentityServer4.Admin",
-        "projectPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin/Skoruba.IdentityServer4.Admin.csproj",
-        "packagesPath": "/home/adilson/.nuget/packages/",
-        "outputPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin/obj/",
+        "projectPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin\\Skoruba.IdentityServer4.Admin.csproj",
+        "packagesPath": "C:\\Users\\adils\\.nuget\\packages\\",
+        "outputPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/adilson/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\adils\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic.Identity/Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.csproj": {
-                "projectPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic.Identity/Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.csproj"
+              "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic.Identity\\Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.csproj": {
+                "projectPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic.Identity\\Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.csproj"
               },
-              "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.csproj": {
-                "projectPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.csproj"
+              "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared\\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.csproj": {
+                "projectPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared\\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.csproj"
               },
-              "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic/Skoruba.IdentityServer4.Admin.BusinessLogic.csproj": {
-                "projectPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic/Skoruba.IdentityServer4.Admin.BusinessLogic.csproj"
+              "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic\\Skoruba.IdentityServer4.Admin.BusinessLogic.csproj": {
+                "projectPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.BusinessLogic\\Skoruba.IdentityServer4.Admin.BusinessLogic.csproj"
               },
-              "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts/Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts.csproj": {
-                "projectPath": "/mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts/Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts.csproj"
+              "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts\\Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts.csproj": {
+                "projectPath": "C:\\desenvolvimento\\identity\\IdentityServer4.Admin\\src\\Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts\\Skoruba.IdentityServer4.Admin.EntityFramework.DbContexts.csproj"
               }
             }
           }
@@ -509,7 +537,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
         }
       }
     }

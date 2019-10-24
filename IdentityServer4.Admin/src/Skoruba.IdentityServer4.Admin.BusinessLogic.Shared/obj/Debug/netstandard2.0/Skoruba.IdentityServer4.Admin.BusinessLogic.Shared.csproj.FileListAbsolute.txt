@@ -23,3 +23,11 @@ C:/desenvolvimento/featuretoggle/IdentityServer4.Admin/src/Skoruba.IdentityServe
 /mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared/obj/Debug/netstandard2.0/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.dll
 /mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared/obj/Debug/netstandard2.0/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.pdb
 /mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared/obj/Debug/netstandard2.0/Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.csprojAssemblyReference.cache
+C:\desenvolvimento\identity\IdentityServer4.Admin\src\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared\bin\Debug\netstandard2.0\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.deps.json
+C:\desenvolvimento\identity\IdentityServer4.Admin\src\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared\bin\Debug\netstandard2.0\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.dll
+C:\desenvolvimento\identity\IdentityServer4.Admin\src\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared\bin\Debug\netstandard2.0\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.pdb
+C:\desenvolvimento\identity\IdentityServer4.Admin\src\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared\obj\Debug\netstandard2.0\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.csprojAssemblyReference.cache
+C:\desenvolvimento\identity\IdentityServer4.Admin\src\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared\obj\Debug\netstandard2.0\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.AssemblyInfoInputs.cache
+C:\desenvolvimento\identity\IdentityServer4.Admin\src\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared\obj\Debug\netstandard2.0\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.AssemblyInfo.cs
+C:\desenvolvimento\identity\IdentityServer4.Admin\src\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared\obj\Debug\netstandard2.0\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.dll
+C:\desenvolvimento\identity\IdentityServer4.Admin\src\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared\obj\Debug\netstandard2.0\Skoruba.IdentityServer4.Admin.BusinessLogic.Shared.pdb

@@ -24,3 +24,11 @@ C:/desenvolvimento/featuretoggle/IdentityServer4.Admin/src/Skoruba.IdentityServe
 /mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework.Identity/obj/Debug/netstandard2.0/Skoruba.IdentityServer4.Admin.EntityFramework.Identity.dll
 /mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework.Identity/obj/Debug/netstandard2.0/Skoruba.IdentityServer4.Admin.EntityFramework.Identity.pdb
 /mnt/405A884F5A88441E/desenvolvimento/identity/IdentityServer4.Admin/src/Skoruba.IdentityServer4.Admin.EntityFramework.Identity/obj/Debug/netstandard2.0/Skoruba.IdentityServer4.Admin.EntityFramework.Identity.csprojAssemblyReference.cache
+C:\desenvolvimento\identity\IdentityServer4.Admin\src\Skoruba.IdentityServer4.Admin.EntityFramework.Identity\bin\Debug\netstandard2.0\Skoruba.IdentityServer4.Admin.EntityFramework.Identity.deps.json
+C:\desenvolvimento\identity\IdentityServer4.Admin\src\Skoruba.IdentityServer4.Admin.EntityFramework.Identity\bin\Debug\netstandard2.0\Skoruba.IdentityServer4.Admin.EntityFramework.Identity.dll
+C:\desenvolvimento\identity\IdentityServer4.Admin\src\Skoruba.IdentityServer4.Admin.EntityFramework.Identity\bin\Debug\netstandard2.0\Skoruba.IdentityServer4.Admin.EntityFramework.Identity.pdb
+C:\desenvolvimento\identity\IdentityServer4.Admin\src\Skoruba.IdentityServer4.Admin.EntityFramework.Identity\obj\Debug\netstandard2.0\Skoruba.IdentityServer4.Admin.EntityFramework.Identity.csprojAssemblyReference.cache
+C:\desenvolvimento\identity\IdentityServer4.Admin\src\Skoruba.IdentityServer4.Admin.EntityFramework.Identity\obj\Debug\netstandard2.0\Skoruba.IdentityServer4.Admin.EntityFramework.Identity.AssemblyInfoInputs.cache
+C:\desenvolvimento\identity\IdentityServer4.Admin\src\Skoruba.IdentityServer4.Admin.EntityFramework.Identity\obj\Debug\netstandard2.0\Skoruba.IdentityServer4.Admin.EntityFramework.Identity.AssemblyInfo.cs
+C:\desenvolvimento\identity\IdentityServer4.Admin\src\Skoruba.IdentityServer4.Admin.EntityFramework.Identity\obj\Debug\netstandard2.0\Skoruba.IdentityServer4.Admin.EntityFramework.Identity.dll
+C:\desenvolvimento\identity\IdentityServer4.Admin\src\Skoruba.IdentityServer4.Admin.EntityFramework.Identity\obj\Debug\netstandard2.0\Skoruba.IdentityServer4.Admin.EntityFramework.Identity.pdb
