@@ -1,4 +1,4 @@
-version: '2.4'
+version: '2.2'
 services:
   identity-admin:
     image: devremoto/identity-admin

@@ -1,18 +1,18 @@
-version: '2.4'
-services:  
+version: '2.2'
+services:
   identity-admin:
     extends:
       file: docker-compose.yml
       service: identity-admin
     build:
       dockerfile: Skoruba.IdentityServer4.Admin/Dockerfile
-      context: ./IdentityServer4.Admin/src 
+      context: ./IdentityServer4.Admin/src
     networks:
       - identity-network
     links:
       - identity
     depends_on:
-      - identity 
+      - identity
 
   identity:
     extends:
@@ -26,5 +26,4 @@ services:
 
 networks:
   identity-network:
-    driver: bridge         
-    
+    driver: bridge
