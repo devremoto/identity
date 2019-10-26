@@ -1,9 +1,6 @@
-version: '3'
+version: '2.4'
 services:
   identity-admin:
-    build:
-      dockerfile: Skoruba.IdentityServer4.Admin/Dockerfile
-      context: ./IdentityServer4.Admin/src
     image: devremoto/identity-admin
     container_name: devremoto-identity-admin
     ports:
@@ -32,23 +29,15 @@ services:
       - AdminConfiguration:RedirectUris:5=http://${HOST_IP}:${STS_PORT}
       - AdminConfiguration:RedirectUris:6=https://localhost:${STS_HTTPS_PORT}
       - AdminConfiguration:RedirectUris:7=http://localhost:${STS_PORT}
-      - AdminConfiguration:RedirectUris:8=https://localhost:${STS_ADMIN_HTTPS_PORT}      
+      - AdminConfiguration:RedirectUris:8=https://localhost:${STS_ADMIN_HTTPS_PORT}
       - AdminConfiguration:RedirectUris:9=http://localhost:${STS_ADMIN_PORT}
       - AdminConfiguration:RedirectUris:10=https://${HOST_IP}:${STS_ADMIN_HTTPS_PORT}/signin-oidc
       - AdminConfiguration:RedirectUris:11=http://localhost:${STS_ADMIN_PORT}/signin-oidc
-    networks:
-      - identity-network
+
     volumes:
       - ./IdentityServer4.Admin/src/db:/db
-    links:
-      - identity
-    depends_on:
-      - identity
 
   identity:
-    build:
-      dockerfile: Skoruba.IdentityServer4.STS.Identity/Dockerfile
-      context: ./IdentityServer4.Admin/src
     image: devremoto/identity
     container_name: devremoto-identity
     ports:
@@ -61,11 +50,5 @@ services:
       - Kestrel__Certificates__Default__Password=ufo
       - AdminConfiguration:RequireHttpsMetadata=${USE_SSL}
       - AdminConfiguration:IdentityAdminBaseUrl=${STS_ADMIN_SERVER}
-    networks:
-      - identity-network
     volumes:
       - ./IdentityServer4.Admin/src/db:/db
-
-networks:
-  identity-network:
-    driver: bridge

@@ -1,0 +1,24 @@
+version: '2.4'
+services:  
+  identity-admin:
+    extends:
+      file: docker-compose.yml
+      service: identity-admin
+    networks:
+      - identity-network
+    links:
+      - identity
+    depends_on:
+      - identity 
+
+  identity:
+    extends:
+      file: docker-compose.yml
+      service: identity
+    networks:
+      - identity-network
+
+networks:
+  identity-network:
+    driver: bridge         
+    

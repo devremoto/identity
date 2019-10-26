@@ -243,6 +243,7 @@ namespace Skoruba.IdentityServer4.STS.Identity.Helpers
 				})
 				.AddAspNetIdentity<TUserIdentity>()
 				.AddIdentityServerStoresWithDbContexts<TConfigurationDbContext, TPersistedGrantDbContext>(configuration, hostingEnvironment);
+				//.AddProfileService<ProfileService<IdentityUser<TKey>>();
 
 			builder.AddCustomSigningCredential(configuration, logger);
 			builder.AddCustomValidationKey(configuration, logger);
